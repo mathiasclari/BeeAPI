@@ -1,5 +1,5 @@
 # ActiCraftBeeAPI
-Originaly made by JernejTDO
+Plugin was originaly made by JernejTDO and alandioda, but was semi-recoded by PxLib.
 
 <article align="center">
 <h4>MAVEN IMPLEMENTATION:</h4>
