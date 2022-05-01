@@ -6,10 +6,10 @@ Originaly made by JernejTDO
 
     
 ```xml
-        <repository>
-            <id>maven-releases</id>
-            <url>http://jernejtdo.si:8081/repository/maven-releases/</url>
-        </repository>
+<repository>
+   <id>maven-releases</id>
+   <url>http://jernejtdo.si:8081/repository/maven-releases/</url>
+</repository>
 ```
 
 ```xml
