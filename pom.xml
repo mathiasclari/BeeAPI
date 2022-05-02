@@ -6,7 +6,7 @@
 
     <groupId>net.acticraft.plugin.api</groupId>
     <artifactId>BeeAPI</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>BeeAPI</name>
@@ -71,5 +71,8 @@
             <version>1.18.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+
+
+
     </dependencies>
 </project>
