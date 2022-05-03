@@ -123,7 +123,7 @@ BeeAPI.mysql.GetConnection();
 BeeScoreboard board = new BeeScoreboard(player);
 
 // Set the title
-board.updateTitle(ChatColor.GOLD + "FastBoard");
+board.updateTitle(ChatColor.GOLD + "ScoreBoard");
 
 // Change the lines
 board.updateLines(
