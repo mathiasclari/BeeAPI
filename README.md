@@ -1,4 +1,4 @@
-# ActiCraftBeeAPI
+# BeeAPI
 Plugin was originaly made by JernejTDO and alandioda, but was semi-recoded by PxLib.
 
 <article align="center">
