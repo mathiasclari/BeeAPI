@@ -30,4 +30,13 @@ public final class BeeAPI extends JavaPlugin {
             Bukkit.getLogger().info(ChatColor.of("#FFE29F")+"BeeAPI §7- "+ChatColor.of("#FFE29F")+"BeeAPI"+" folder was created.");
         }
     }
+
+    public static BeeMySQL getMySQL() {
+        return mysql;
+    }
+
+    public static void setupMySQL(String host, String dataBase, String username, String password) {
+        Bukkit.getConsoleSender().sendMessage(ChatColor.of("#FEE057")+"BeeAPI - Connecting to MySQL...");
+        mysql = new BeeMySQL(host, dataBase, username, password);
+    }
 }
