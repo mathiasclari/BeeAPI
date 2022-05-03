@@ -287,11 +287,11 @@ import org.bukkit.Sound;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
-import net.acticraft.plugin.api.beeapi.blockreplaceengine.BlockReplacementEngine.checkBlockReplace;
 
 import java.util.Arrays;
 import java.util.List;
 
+import static net.acticraft.plugin.api.beeapi.blockreplaceengine.BlockReplacementEngine.checkBlockReplace;
 
 public class BlockBreakListener implements Listener {
 	List<String> resourceWorlds = Arrays.asList("farm_world", "forest_world", "mountain_world", "desert_world", "island_world", "skyblock_world","world");
