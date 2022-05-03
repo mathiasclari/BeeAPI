@@ -18,7 +18,7 @@ Plugin was originaly made by JernejTDO and alandioda, but was semi-recoded by Px
 <dependency>
   <groupId>net.acticraft.plugin.api</groupId>
   <artifactId>BeeAPI</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
 </dependency>
 ```
 
@@ -109,11 +109,6 @@ BeeAPI.mysql.GetConnection();
 <p> Dynamic scoreboard size: you don't need to add/remove lines, you can just give a string list (or array) to change all the lines</p>
 <p> Everything is at packet level, so it works with other plugins using scoreboard and/or teams</p>
 <p> Can be used asynchronously</p>
-<p> No character limit on 1.13 and higher</p>
-<p> Supports hex colors on 1.16 and higher</p>
-
-#6 Creating a scoreboard
-
 <p>Just create a new `BeeScoreboard` and update the title and the lines:</p>
 
 ```java
