@@ -105,13 +105,10 @@ BeeAPI.mysql.GetConnection();
 <h5>Features</h5>
 
 <p> No flickering (without using a buffer)</p>
-<p> Works with all versions from 1.7.10 to 1.18</p>
-<p> Very small (around 600 lines of code with the JavaDoc) and no dependencies</p>
 <p> Easy to use</p>
 <p> Dynamic scoreboard size: you don't need to add/remove lines, you can just give a string list (or array) to change all the lines</p>
 <p> Everything is at packet level, so it works with other plugins using scoreboard and/or teams</p>
 <p> Can be used asynchronously</p>
-<p> Supports up to 30 characters per line on 1.12.2 and below</p>
 <p> No character limit on 1.13 and higher</p>
 <p> Supports hex colors on 1.16 and higher</p>
 
