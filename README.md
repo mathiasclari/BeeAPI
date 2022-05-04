@@ -321,7 +321,18 @@ public class BlockBreakListener implements Listener {
 
 
 </article>
+<hr>
+<article align="left">
+<h3>HEX Support:</h3>
+<p>Its for the version 1.16+ that support RGB. You can you this on spigot and Bungee servers. You just need to put the & symbol in front of the hex code</p>
 
+```java
+Player player = null; //Your player 
+player.sendMessage(HexColors.replaceHexCodes("&#00f2ff message in your color."));
+```
+
+
+</article>
 <hr>
 <p align="center">
     &copy;McBee 2022
