@@ -96,7 +96,7 @@ You need to install this dependency
 ```
 Get the connection to data base.
 ```java 
-BeeAPI.mysql.GetConnection();
+BeeAPI.getMySQL().GetConnection();
 ```
 </article>
 <hr>
