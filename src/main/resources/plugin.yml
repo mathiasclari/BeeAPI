@@ -3,4 +3,4 @@ version: '${project.version}'
 main: net.acticraft.plugin.api.beeapi.BeeAPI
 api-version: 1.18
 authors: [ PxLib, JernejTDO, alandioda ]
-description: Plugin was originaly made by JernejTDO and alandioda, but was semi-recoded by PxLib.
+description: Hey thats very cool!
