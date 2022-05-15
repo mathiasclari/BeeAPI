@@ -20,13 +20,13 @@ public class JsonManager {
         if(dir.endsWith(".")) {
             dir = dir.substring(0, dir.length() - 1);
         }
-        dir = dir + "EasyAPI/";
+        dir = dir + "BeeAPI/";
         File tempFile = new File(dir + name+".json");
         if(!tempFile.exists()) {
             JSONObject jsonFile = new JSONObject();
             try {
                 FileWriter file = new FileWriter(dir+"/"+name+".json");
-                Bukkit.getConsoleSender().sendMessage(ChatColor.of(new Color(51,255,255))+"EasyAPI §7- "+ChatColor.of(new Color(0,255,0))+name+".json"+" file was created.");
+                Bukkit.getConsoleSender().sendMessage(ChatColor.of(new Color(255, 156, 51))+"BeeAPI §7- "+ChatColor.of(new Color(255, 98,0))+name+".json"+" file was created.");
                 file.write(jsonFile.toJSONString());
                 file.close();
             } catch (IOException e) {
@@ -43,7 +43,7 @@ public class JsonManager {
         if(dir.endsWith(".")) {
             dir = dir.substring(0, dir.length() - 1);
         }
-        dir = dir + "EasyAPI/";
+        dir = dir + "BeeAPI/";
         File tempFile = new File(dir + name+".json");
         if(tempFile.exists()) {
             JSONParser parser = new JSONParser();
@@ -65,12 +65,12 @@ public class JsonManager {
         if(dir.endsWith(".")) {
             dir = dir.substring(0, dir.length() - 1);
         }
-        dir = dir + "EasyAPI/";
+        dir = dir + "BeeAPI/";
         File tempFile = new File(dir + name+".json");
         if(tempFile.exists()) {
             try {
                 FileWriter file = new FileWriter(dir+"/"+name+".json");
-                Bukkit.getConsoleSender().sendMessage(ChatColor.of(new Color(51,255,255))+"EasyAPI §7- "+ChatColor.of(new Color(0,255,0))+name+".json"+" file was updated.");
+                Bukkit.getConsoleSender().sendMessage(ChatColor.of(new Color(255, 156, 51))+"BeeAPI §7- "+ChatColor.of(new Color(255, 98,0))+name+".json"+" file was updated.");
                 file.write(JSONObject.toJSONString());
                 file.close();
             } catch (IOException e) {
